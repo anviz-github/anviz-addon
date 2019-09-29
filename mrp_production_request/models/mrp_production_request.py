@@ -9,7 +9,7 @@ from odoo.exceptions import UserError
 class MrpProductionRequest(models.Model):
     _name = "mrp.production.request"
     _description = "Manufacturing Request"
-    _inherit = "mail.thread"
+    _inherit = ["mail.thread", "mail.activity.mixin"]
     _order = "date_planned_start desc, id desc"
 
     @api.model
