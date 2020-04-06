@@ -1,5 +1,0 @@
-- set `allow_whole_order_dropshipping` on your vendor
-- define a sale with a product with dropship route
-- add other product of the same vendor
-- confirm the order
-- only one operation is executed for the products of this vendors: a dropshipment
